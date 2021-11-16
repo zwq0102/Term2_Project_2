@@ -1,0 +1,172 @@
+</*1.顶部--*/> 
+</*1.顶部外层容器--*/>
+.topbar{
+    height: 28;
+    background-color: rgb(0, 0, 0);
+}
+</*1.顶部里层容器--*/>
+.topbar .container{
+    height:28px;
+    background-color: rgb(0, 0, 0);
+}
+</*1.里面的p标签--*/>
+.topbar .container p{
+    height:28px;
+    line-height: 28px;
+    color: blanchedalmond;
+
+}
+</*第一个p标签--*/>
+.topbar .container p:first-child{
+    text-indent: 210px;
+}
+</*第一个p标签下面的a标签--*/>
+.topbar .container p:first-child a{
+    color:blanchedalmond;
+    text-decoration:none ; 
+}
+</*第二个p标签--*/>
+.topbar .container p:nth-child(2){
+    margin-right: 10px;
+}
+</*第二个p标签下面的标题和注册--*/>
+.topbar .container p:nth-child(2).title,.topbar.container p:nth-child(2).register{
+    color:rgb(248, 134, 4);
+}
+</*第二个p标签下面的登录*/>
+.topbar .container p:nth-child(2).login{
+    color: cornsilk;
+}
+</*2.导航--*/> 
+.nav{
+    height:80px;
+    background-color:azure;
+}
+
+.nav .search-shopcart-order{
+    margin-top:5px ;
+    height:35px ;
+}
+.nav .category-menu{
+    margin-top: 15px;
+    height: 30px;
+    background-color:rgb(255, 6, 6);
+}
+.nav .search-shopcart-order.search-input{
+    width: 440px;
+    height:35px;
+    background-color:rgb(240, 149, 12) ;
+    margin-right: 38px;
+    position:relative;
+}
+.nav .search-shopcart-order.search-input span{
+    display:inline-block ;
+    width:41px;
+    height:35px;
+    position:absolute;
+    right:0px ;
+    top: 0px;
+    background-image:url('../images/bgicon.png');
+}
+.nav .search-shopcart-order.search-input.search{
+    width: 390px;
+    height: 31px;
+    border: 2px solid rgb(223, 138, 12);
+    text-indent: 10px;
+    color:rgb(0, 0, 0) ;
+    outline: none;
+
+}
+.nav .search-shopcart-order.shopcart-order{
+    width: 204px;
+    height: 35px;
+    background-color: rgb(252, 0, 96);
+    font-size: 0;
+}
+.nav .search-shopcart-order.shopcart-order button{
+    width:100px;
+    height:35px;
+    background-color: rgb(92, 90, 92);
+    border: 1px solid beige;
+    font-size:12px;
+    color: rgb(5, 5, 5);
+}
+.nav .search-shopcart-order.shopcart-order button:nth-child(1){
+    background-color: chocolate;
+    color: cornsilk;
+    padding-left: 3px;
+
+}
+.nav .search-shopcart-order.shopcart-order button:nth-child(1) span:first-child{
+    background-size:20PX 20PX ;
+    background-image: url('../images/bgicon.png');
+    background-repeat: no-repeat;
+    display:inline-block;
+    vertical-align: top;
+    width:20px ;
+    height:16PX;
+    margin-right: 3px;
+}
+.nav .search-shopcart-order.shopcart-order button:nth-child(1) span:nth-child(2){
+    display:inline-block;
+    vertical-align: top;
+}
+.nav .search-shopcart-order.shopcart-order button:nth-child(1) span:nth-child(3){
+    vertical-align: top;
+    display: inline-block;
+    width:20px ;
+    margin-left: 15px;
+}
+</*3分类导航--*/> 
+.menu{
+    height:500px;
+    background-color:rgb(82, 189, 10);
+
+}
+</*4.今日推荐-*/> 
+.recomment{
+    height:500px;
+    background-color:rgb(230, 20, 184);
+
+}
+</*5.电子书--*/> 
+.ebooks{
+    height:500px;
+    background-color:rgb(248, 192, 8);
+
+}
+</*6.服装--*/> 
+.clothes{
+    height:500px;
+    background-color:rgb(94, 2, 45);
+}
+</*7.户外运动--*/> 
+.sport{
+    height:500px;
+    background-color:rgb(33, 11, 235);
+
+}
+</*8.童装--*/> 
+.children-clothes{
+    height:500px;
+    background-color:rgb(1, 14, 14);
+
+}
+</*9家居日常--*/> 
+.daily{
+    height:500px;
+    background-color:azure;
+
+}
+</*推广商品--*/> 
+.promotion{
+    height:500px;
+    background-color:azure;
+
+}
+</*11.尾部--*/> 
+.footer{
+
+    height:500px;
+    background-color:azure;
+}
