@@ -1,0 +1,111 @@
+.product-detail {
+   height:500px ;
+   margin: 50px auto;
+}
+.product-detail .left-big-box {
+    background-color: red;
+}
+.product-detail .left-box{
+     width: 340px;
+     height: 470px;
+}
+.product-detail .right-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid #ccc;
+}
+.magnifier-container{
+    height: 380px !important;
+}
+.product-detail-title .a{
+    font-size: 20px;
+    font-weight:900;
+}
+.product-detail-title span{
+    font-size: 15px;
+}
+.right-box .content p{
+    line-height: 40px;
+    font-size: 18px;
+    color: rgb(148, 145, 145);
+}
+.right-box .content .title{
+    font-size: 20px;
+    font-weight:600;
+    color: black;
+}
+.right-box .content .text{
+    color: red;
+    font-size: 20px;
+    font-weight:500;
+    font-size: 18px;
+}
+.right-box .content .price{
+    color: red;
+    font-size: 15px;
+    font-weight:600;
+}
+
+.right-box .content .Advertised{
+    color: red;
+    font-size: 20px;
+    font-weight:500;
+}
+.right-box .content .lj{
+    width: 800px;
+    height: 160px;
+    background-color: rgb(230, 228, 228);
+    line-height: 30px;
+}
+.right-box .content .lj .button-right{
+    float: right;
+    height: 40px;
+    width: 50px;
+    font-size: 10px;
+    background-color: rgb(230, 228, 228);
+    border: none;
+    border-left:2px solid #ccc;
+    font-size: 12px;
+}
+.right-box .content .lj .button-right .number{
+    color: red;
+    font-size: 12px;
+}
+.right-box .content .clothes p{
+    color: rgb(158, 155, 155);
+    font-size: 20px;
+}
+.right-box .content .clothes p .Fwork{
+    border: 1px solid #ccc;
+    font-size:30px ;
+}
+.right-box .content .clothes p .Fwork:hover{
+    border: 1px solid #ff6700;
+    background-color: #f0d9cb;
+    color: black;
+}
+
+.right-box .content .button-box{
+    margin-left: 500px;
+}
+.right-box .content .button-box .add-shop{
+    font-size: 20px;
+    width:200px ;
+    background-color: #ff6700;
+    height: 50px;
+    margin-top: 20px;
+    border: none;
+    color: white;
+}
+ .button-box input{
+    height: 45px;
+    width: 20px;
+}
+.right-box .tips{
+    font-size: 15px;
+    color: #ccc;
+    width: 260px;
+    height: 20px;
+    margin-top: 0px;
+    margin-left: 550px;
+}
