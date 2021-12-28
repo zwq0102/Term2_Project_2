@@ -1,0 +1,98 @@
+.register{
+    width: 400px;
+    height: 500px;
+    margin: 30px auto;
+}
+.register .register-content{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+}
+.register h1{
+    font-size: 24px;
+}
+.register p{
+    margin-bottom: 30px;
+    text-indent: 0px;
+    width: 800px;
+    font-size: 20px;
+}
+.register p input{
+    width: 276px;
+    height: 39px;
+    outline: none;
+    font-size: 15px;
+    margin-left: 40px;
+    border: 1px solid #ccc;
+    border-left: none;
+}
+.register .register-content .a{
+    width: 400px;
+    height: 40px;
+    font-size: 25px;
+    float: left;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+}
+.register .register-content .b{
+    width: 400px;
+    height: 40px;
+    font-size: 25px;
+    float: left;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+}
+.register .register-content .c{
+    width: 400px;
+    height: 40px;
+    font-size: 25px;
+    float: left;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+}
+.register .register-content .d{
+    width: 400px;
+    height: 40px;
+    font-size: 25px;
+    float: left;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+}
+.register .register-content .e{
+    width: 400px;
+    height: 40px;
+    font-size: 25px;
+    float: left;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    background-color: blue;
+}
+.register .register-content .f{
+    width: 400px;
+    height: 40px;
+    font-size: 25px;
+    float: left;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    background-color: #ff6700;
+
+}
+.register .register-content .g{
+    width: 400px;
+    height: 40px;
+    font-size: 25px;
+    float: left;
+    margin-bottom: 25px;
+    border: 6px solid #ff6700;
+}
+.register .register-content .h {
+    color: #ccc;
+    width: 400px;
+    height: 40px;
+    font-size: 15px;
+    float: left;
+    margin-bottom: -20px;
+}
+.register .register-content .h .hh{
+    color: #ff6700;
+}

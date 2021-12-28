@@ -1,0 +1,94 @@
+.model{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    top:0;
+    left: 0;
+    display: none;
+    /*扩展*/
+    /* display: flex; */
+    /* 水平居中 */
+    /* justify-content: center; */
+    /* 垂直居中 */
+    /* align-items: center;  */
+
+   
+}
+.model .content{
+    width: 400px;
+    height: 250px;
+    font-size: 30px;
+    color: #fff;
+    background-color: white;
+
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+
+    /* position: absolute;
+    top: 50%;
+    margin-top: -125px;
+    left: 50%;
+    margin-left: -200px; */
+    /* position:absolute ;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%); */
+}
+.model .content .top{
+    width: 100%;
+    height: 40px;
+    background-color: #ccc;
+}
+.model .content .top .left{
+    margin-left: 20px;
+    color: black;
+    font-size: 24px;
+}
+.model .content .top #close{
+    margin-left: 240px;
+    font-size: 30px;
+    color: rgb(94, 88, 88);
+}
+.model .content .center{
+    font-size: 24px;
+    width: 400px;
+    height: 100px;
+    margin-top: 50px;
+}
+.model .content .center span{
+    width: 400px;
+    height: 200px;
+    color: black;
+    text-indent: 30px;
+}
+.model .content .center img{
+    width: 60px;
+    height: 60px;
+    margin-left:60pt;
+    margin-top: 10px;
+}
+.model .content .center .c{
+    font-size: 18px;
+}
+.model .content .button .d{
+    margin-left: 70px;
+    width: 120px;
+    height: 30px;
+    font-size: 20px;
+    border: none;
+    background-color: #ccc;
+}
+.model .content .button .b{
+    margin-left: 20px;
+    width: 120px;
+    height: 30px;
+    font-size: 20px;
+    background-color: #ff6700;
+    border: none;
+    color: white;
+}
